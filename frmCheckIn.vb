@@ -12,6 +12,7 @@ Public Class frmCheckIn
                 cmbRoomNumber.Items.Add(dr("RoomNumber").ToString())
             End While
             con.Close()
+
         Catch ex As Exception
             MsgBox("Error loading rooms: " & ex.Message)
             If con.State = ConnectionState.Open Then con.Close()

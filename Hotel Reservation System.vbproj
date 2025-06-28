@@ -102,6 +102,12 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmBookRoom.Designer.vb">
+      <DependentUpon>frmBookRoom.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBookRoom.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmCheckIn.Designer.vb">
       <DependentUpon>frmCheckIn.vb</DependentUpon>
     </Compile>
